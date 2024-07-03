@@ -3,6 +3,7 @@ import Root from "../Layout/Root/Root";
 import Navbar from "../Pages/Navbar/Navbar";
 import Home from "../Pages/Home/Home/Home";
 import About from "../Pages/Home/About/About";
+import Footer from "../Pages/Footer/Footer";
 
 export const router = createBrowserRouter([
   {
@@ -19,8 +20,8 @@ export const router = createBrowserRouter([
         element: <Navbar />,
       },
       {
-        path: "/about",
-        element: <About />,
+        path: "/footer",
+        element: <Footer />,
       },
     ],
   },

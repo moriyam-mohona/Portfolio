@@ -42,7 +42,7 @@ const Skills = () => {
               </div>
               <div className="bg-base-200 text-center p-3">
                 <img
-                  src="../../../../public/Images/expressjs_logo_icon_169185.webp"
+                  src="../../../../public/Images/express.png"
                   alt=""
                   className="h-20 w-20 mx-auto"
                 />
@@ -50,11 +50,43 @@ const Skills = () => {
               </div>
               <div className="bg-base-200 text-center p-3">
                 <img
-                  src="../../../../public/Images/html.png"
+                  src="../../../../public/Images/mongo.png"
                   alt=""
                   className="h-20 w-20 mx-auto"
                 />
-                <p className="py-6">HTML</p>
+                <p className="py-6">MongoDB</p>
+              </div>
+              <div className="bg-base-200 text-center p-3">
+                <img
+                  src="../../../../public/Images/node-js.png"
+                  alt=""
+                  className="h-20 w-20 mx-auto"
+                />
+                <p className="py-6">Node.js</p>
+              </div>
+              <div className="bg-base-200 text-center p-3">
+                <img
+                  src="../../../../public/Images/git.png"
+                  alt=""
+                  className="h-20 w-20 mx-auto"
+                />
+                <p className="py-6">Git</p>
+              </div>
+              <div className="bg-base-200 text-center p-3">
+                <img
+                  src="../../../../public/Images/illustrator.png"
+                  alt=""
+                  className="h-20 w-20 mx-auto"
+                />
+                <p className="py-6">Illustrator</p>
+              </div>
+              <div className="bg-base-200 text-center p-3">
+                <img
+                  src="../../../../public/Images/photoshop.png"
+                  alt=""
+                  className="h-20 w-20 mx-auto"
+                />
+                <p className="py-6">Photoshop</p>
               </div>
             </div>
           </div>

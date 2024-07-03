@@ -16,7 +16,11 @@ const Navbar = () => {
           Skills
         </a>
       </li>
-
+      <li>
+        <a href="#projects" className="text-lg">
+          Projects
+        </a>
+      </li>
       <li>
         <a href="#contact" className="text-lg">
           Contact
@@ -24,6 +28,7 @@ const Navbar = () => {
       </li>
     </>
   );
+
   return (
     <div className="navbar bg-base-100 px-5">
       <div className="navbar-start">
@@ -61,7 +66,12 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Resume</a>
+        <a
+          href="https://drive.google.com/uc?export=download&id=1AvukU7saD10fTwRTgTeGk_tPq6b7Jh-B"
+          className="btn btn-outline border-2 text-lg"
+        >
+          Resume
+        </a>
       </div>
     </div>
   );
