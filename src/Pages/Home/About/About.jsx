@@ -5,7 +5,6 @@ const About = () => {
         <h2 className="text-6xl font-bold text-yellow-200 mb-6">About</h2>
         <div className="grid grid-cols-12 gap-5 ">
           <hr className="border-2 col-span-1 mr-5" />
-
           <p className="text-xl col-span-11 font-light">
             Hi, I'm Moriyam Mohona, a passionate{" "}
             <span className="text-yellow-200"> Front-End Developer</span> with a

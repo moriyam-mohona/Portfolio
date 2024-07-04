@@ -6,7 +6,7 @@ const techstack = {
   },
   express: {
     title: "Express",
-    img: "../../../../public/Images/express.png",
+    img: "https://i.ibb.co/kqjdn3M/express.png",
     wid: "24px",
   },
   html: {
@@ -21,7 +21,7 @@ const techstack = {
   },
   mongodb: {
     title: "MongoDB",
-    img: "../../../../public/Images/mongo.png",
+    img: "https://i.ibb.co/KzrBrV9/mongo.png",
     wid: "24px",
   },
   node: {
@@ -45,7 +45,7 @@ const techstack = {
 export const ProjectList = [
   {
     heading: "FoodBridge",
-    img: "../../../../public/Images/foodbridge.png",
+    img: "https://i.ibb.co/6XwNJXv/foodbridge.png",
     title: "Join us in the fight against food waste",
     description:
       "FoodBridge is a community-driven platform designed to empower individuals and organizations to share surplus food, thereby reducing food waste and fostering community connections.",
@@ -63,7 +63,7 @@ export const ProjectList = [
   },
   {
     heading: "Property Pros",
-    img: "../../../../public/Images/PropertyPros.png",
+    img: "https://i.ibb.co/9VGXcfL/Property-Pros.png",
     title: "Provide Architectural Design and Construction",
     description:
       "PropertyPros is a web application for managing properties, facilitating interactions between agents and clients, and providing a platform for property listings.",
@@ -81,7 +81,7 @@ export const ProjectList = [
   },
   {
     heading: "Travel Go",
-    img: "../../../../public/Images/TravelGo.png",
+    img: "https://i.ibb.co/WWMNdHf/TravelGo.png",
     title: "Managing Tourist Spot",
     description:
       "TravelGo is a dynamic web platform highlighting tourist destinations worldwide. It showcases diverse countries and their iconic spots, offering interactive features for exploring and adding new destinations.",
@@ -98,35 +98,35 @@ export const ProjectList = [
   },
 ];
 
-const extra = [
-  {
-    heading: "DIAMONDLAND",
-    img: "https://raw.githubusercontent.com/chaudhari014/legit-building-8885/main/banner/Screenshot%20(672).png",
-    title: "CaratLane Clone",
-    description:
-      "Diamondland is an e-commerce website specializing in jewelry, offering customers a wide range of high-quality jewelry at affordable prices. They also provide personalized gift options for your loved ones.",
-    techStack: [techstack.html, techstack.javascript, techstack.css],
-    liveLink: "https://diamond-land.netlify.app/index.html",
-    gitLink: "https://github.com/chaudhari014/legit-building-8885",
-  },
-  {
-    heading: "SPENDWISER",
-    img: "https://user-images.githubusercontent.com/112808279/238118882-e4441c6a-8b1e-418d-b228-7132e40a40d4.png",
-    title: "Money Manager App",
-    description:
-      "SpendWiser is an invaluable tool for anyone looking to manage their monthly budget and keep track of their spending. With its user-friendly interface and comprehensive features, SpendWiser makes it easy to stay on top of your finances and ensure that you are meeting your financial goals.",
-    techStack: [techstack.react, techstack.chartjs, techstack.redux],
-    liveLink: "https://hilarious-wood-568-fw21-0275-updated1.vercel.app/",
-    gitLink: "https://github.com/SumatM/SpendWiser",
-  },
-  {
-    heading: "TEXT TO SPEECH",
-    img: "https://raw.githubusercontent.com/SumatM/Text-To-Speech/main/Screenshot%20(712).png",
-    title: "JavaScript Speech Synthesis",
-    description:
-      "WebPage that converts written text into spoken words. Utilized natural language processing techniques to analyze and interpret the text, generating synthesized speech output.",
-    techStack: [techstack.html, techstack.javascript, techstack.css],
-    liveLink: "https://text-to-speech-sumat.netlify.app/",
-    gitLink: "https://github.com/SumatM/Text-To-Speech",
-  },
-];
+// const extra = [
+//   {
+//     heading: "DIAMONDLAND",
+//     img: "https://raw.githubusercontent.com/chaudhari014/legit-building-8885/main/banner/Screenshot%20(672).png",
+//     title: "CaratLane Clone",
+//     description:
+//       "Diamondland is an e-commerce website specializing in jewelry, offering customers a wide range of high-quality jewelry at affordable prices. They also provide personalized gift options for your loved ones.",
+//     techStack: [techstack.html, techstack.javascript, techstack.css],
+//     liveLink: "https://diamond-land.netlify.app/index.html",
+//     gitLink: "https://github.com/chaudhari014/legit-building-8885",
+//   },
+//   {
+//     heading: "SPENDWISER",
+//     img: "https://user-images.githubusercontent.com/112808279/238118882-e4441c6a-8b1e-418d-b228-7132e40a40d4.png",
+//     title: "Money Manager App",
+//     description:
+//       "SpendWiser is an invaluable tool for anyone looking to manage their monthly budget and keep track of their spending. With its user-friendly interface and comprehensive features, SpendWiser makes it easy to stay on top of your finances and ensure that you are meeting your financial goals.",
+//     techStack: [techstack.react, techstack.chartjs, techstack.redux],
+//     liveLink: "https://hilarious-wood-568-fw21-0275-updated1.vercel.app/",
+//     gitLink: "https://github.com/SumatM/SpendWiser",
+//   },
+//   {
+//     heading: "TEXT TO SPEECH",
+//     img: "https://raw.githubusercontent.com/SumatM/Text-To-Speech/main/Screenshot%20(712).png",
+//     title: "JavaScript Speech Synthesis",
+//     description:
+//       "WebPage that converts written text into spoken words. Utilized natural language processing techniques to analyze and interpret the text, generating synthesized speech output.",
+//     techStack: [techstack.html, techstack.javascript, techstack.css],
+//     liveLink: "https://text-to-speech-sumat.netlify.app/",
+//     gitLink: "https://github.com/SumatM/Text-To-Speech",
+//   },
+// ];

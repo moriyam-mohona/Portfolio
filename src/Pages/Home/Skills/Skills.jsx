@@ -1,3 +1,13 @@
+import html from "../../../assets/Images/html.png";
+import css from "../../../assets/Images/css-3.png";
+import js from "../../../assets/Images/js.png";
+import react from "../../../assets/Images/react.png";
+import express from "../../../assets/Images/express.png";
+import MongoDB from "../../../assets/Images/mongo.png";
+import nodejs from "../../../assets/Images/node-js.png";
+import git from "../../../assets/Images/git.png";
+import Illustrator from "../../../assets/Images/illustrator.png";
+import Photoshop from "../../../assets/Images/photoshop.png";
 const Skills = () => {
   return (
     <section id="skills" className="py-20">
@@ -9,83 +19,43 @@ const Skills = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
               {" "}
               <div className="bg-base-200 text-center p-3">
-                <img
-                  src="../../../../public/Images/html.png"
-                  alt=""
-                  className="h-20 w-20 mx-auto"
-                />
+                <img src={html} alt="" className="h-20 w-20 mx-auto" />
                 <p className="py-6">HTML</p>
               </div>
               <div className="bg-base-200 text-center p-3">
-                <img
-                  src="../../../../public/Images/css-3.png"
-                  alt=""
-                  className="h-20 w-20 mx-auto"
-                />
+                <img src={css} alt="" className="h-20 w-20 mx-auto" />
                 <p className="py-6">CSS</p>
               </div>
               <div className="bg-base-200 text-center p-3">
-                <img
-                  src="../../../../public/Images/js.png"
-                  alt=""
-                  className="h-20 w-20 mx-auto"
-                />
+                <img src={js} alt="" className="h-20 w-20 mx-auto" />
                 <p className="py-6">JavaScript</p>
               </div>
               <div className="bg-base-200 text-center p-3">
-                <img
-                  src="../../../../public/Images/react.png"
-                  alt=""
-                  className="h-20 w-20 mx-auto"
-                />
+                <img src={react} alt="" className="h-20 w-20 mx-auto" />
                 <p className="py-6">React.js</p>
               </div>
               <div className="bg-base-200 text-center p-3">
-                <img
-                  src="../../../../public/Images/express.png"
-                  alt=""
-                  className="h-20 w-20 mx-auto"
-                />
+                <img src={express} alt="" className="h-20 w-20 mx-auto" />
                 <p className="py-6">Express</p>
               </div>
               <div className="bg-base-200 text-center p-3">
-                <img
-                  src="../../../../public/Images/mongo.png"
-                  alt=""
-                  className="h-20 w-20 mx-auto"
-                />
+                <img src={MongoDB} alt="" className="h-20 w-20 mx-auto" />
                 <p className="py-6">MongoDB</p>
               </div>
               <div className="bg-base-200 text-center p-3">
-                <img
-                  src="../../../../public/Images/node-js.png"
-                  alt=""
-                  className="h-20 w-20 mx-auto"
-                />
+                <img src={nodejs} alt="" className="h-20 w-20 mx-auto" />
                 <p className="py-6">Node.js</p>
               </div>
               <div className="bg-base-200 text-center p-3">
-                <img
-                  src="../../../../public/Images/git.png"
-                  alt=""
-                  className="h-20 w-20 mx-auto"
-                />
+                <img src={git} alt="" className="h-20 w-20 mx-auto" />
                 <p className="py-6">Git</p>
               </div>
               <div className="bg-base-200 text-center p-3">
-                <img
-                  src="../../../../public/Images/illustrator.png"
-                  alt=""
-                  className="h-20 w-20 mx-auto"
-                />
+                <img src={Illustrator} alt="" className="h-20 w-20 mx-auto" />
                 <p className="py-6">Illustrator</p>
               </div>
               <div className="bg-base-200 text-center p-3">
-                <img
-                  src="../../../../public/Images/photoshop.png"
-                  alt=""
-                  className="h-20 w-20 mx-auto"
-                />
+                <img src={Photoshop} alt="" className="h-20 w-20 mx-auto" />
                 <p className="py-6">Photoshop</p>
               </div>
             </div>

@@ -1,3 +1,4 @@
+import logo from "../../assets/Images/Logo.png";
 const Navbar = () => {
   const navItems = (
     <>
@@ -14,6 +15,11 @@ const Navbar = () => {
       <li>
         <a href="#skills" className="text-lg">
           Skills
+        </a>
+      </li>
+      <li>
+        <a href="#education" className="text-lg">
+          Education
         </a>
       </li>
       <li>
@@ -56,11 +62,7 @@ const Navbar = () => {
             {navItems}
           </ul>
         </div>
-        <img
-          src="../../../public/Images/Logo.png"
-          alt=""
-          className="h-20 w-20 p-3"
-        />
+        <img src={logo} alt="" className="h-20 w-20 p-3" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
