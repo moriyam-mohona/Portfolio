@@ -8,54 +8,72 @@ import nodejs from "../../../assets/Images/node-js.png";
 import git from "../../../assets/Images/git.png";
 import Illustrator from "../../../assets/Images/illustrator.png";
 import Photoshop from "../../../assets/Images/photoshop.png";
+
 const Skills = () => {
   return (
-    <section id="skills" className="py-20">
-      <div className="container mx-auto px-6">
-        <h2 className="text-6xl font-bold text-yellow-200 mb-6">My Skills</h2>
-        <div className="grid grid-cols-12 gap-5 ">
-          <hr className="border-2 col-span-1 mr-5" />
-          <div className="col-span-11 ">
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
-              {" "}
-              <div className="bg-base-200 text-center p-3">
-                <img src={html} alt="" className="h-20 w-20 mx-auto" />
-                <p className="py-6">HTML</p>
+    <section id="skills" className="py-20 mb-10 bg-base-200">
+      <div className="container mx-auto px-6 lg:px-20">
+        <h2 className="text-4xl lg:text-6xl font-bold text-yellow-200 mb-6">
+          My Skills
+        </h2>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
+          <hr className="border-2 col-span-1 lg:mr-5" />
+          <div className="col-span-1 lg:col-span-11">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
+              <div className="bg-base-300 text-center p-3">
+                <img src={html} alt="HTML" className="h-20 w-20 mx-auto" />
+                <p className="pt-6 pb-3">HTML</p>
               </div>
-              <div className="bg-base-200 text-center p-3">
-                <img src={css} alt="" className="h-20 w-20 mx-auto" />
-                <p className="py-6">CSS</p>
+              <div className="bg-base-300 text-center p-3">
+                <img src={css} alt="CSS" className="h-20 w-20 mx-auto" />
+                <p className="pt-6 pb-3">CSS</p>
               </div>
-              <div className="bg-base-200 text-center p-3">
-                <img src={js} alt="" className="h-20 w-20 mx-auto" />
-                <p className="py-6">JavaScript</p>
+              <div className="bg-base-300 text-center p-3">
+                <img src={js} alt="JavaScript" className="h-20 w-20 mx-auto" />
+                <p className="pt-6 pb-3">JavaScript</p>
               </div>
-              <div className="bg-base-200 text-center p-3">
-                <img src={react} alt="" className="h-20 w-20 mx-auto" />
-                <p className="py-6">React.js</p>
+              <div className="bg-base-300 text-center p-3">
+                <img src={react} alt="React.js" className="h-20 w-20 mx-auto" />
+                <p className="pt-6 pb-3">React.js</p>
               </div>
-              <div className="bg-base-200 text-center p-3">
-                <img src={express} alt="" className="h-20 w-20 mx-auto" />
-                <p className="py-6">Express</p>
+              <div className="bg-base-300 text-center p-3">
+                <img
+                  src={express}
+                  alt="Express"
+                  className="h-20 w-20 mx-auto"
+                />
+                <p className="pt-6 pb-3">Express</p>
               </div>
-              <div className="bg-base-200 text-center p-3">
-                <img src={MongoDB} alt="" className="h-20 w-20 mx-auto" />
-                <p className="py-6">MongoDB</p>
+              <div className="bg-base-300 text-center p-3">
+                <img
+                  src={MongoDB}
+                  alt="MongoDB"
+                  className="h-20 w-20 mx-auto"
+                />
+                <p className="pt-6 pb-3">MongoDB</p>
               </div>
-              <div className="bg-base-200 text-center p-3">
-                <img src={nodejs} alt="" className="h-20 w-20 mx-auto" />
-                <p className="py-6">Node.js</p>
+              <div className="bg-base-300 text-center p-3">
+                <img src={nodejs} alt="Node.js" className="h-20 w-20 mx-auto" />
+                <p className="pt-6 pb-3">Node.js</p>
               </div>
-              <div className="bg-base-200 text-center p-3">
-                <img src={git} alt="" className="h-20 w-20 mx-auto" />
-                <p className="py-6">Git</p>
+              <div className="bg-base-300 text-center p-3">
+                <img src={git} alt="Git" className="h-20 w-20 mx-auto" />
+                <p className="pt-6 pb-3">Git</p>
               </div>
-              <div className="bg-base-200 text-center p-3">
-                <img src={Illustrator} alt="" className="h-20 w-20 mx-auto" />
-                <p className="py-6">Illustrator</p>
+              <div className="bg-base-300 text-center p-3">
+                <img
+                  src={Illustrator}
+                  alt="Illustrator"
+                  className="h-20 w-20 mx-auto"
+                />
+                <p className="pt-6 pb-3">Illustrator</p>
               </div>
-              <div className="bg-base-200 text-center p-3">
-                <img src={Photoshop} alt="" className="h-20 w-20 mx-auto" />
+              <div className="bg-base-300 text-center p-3">
+                <img
+                  src={Photoshop}
+                  alt="Photoshop"
+                  className="h-20 w-20 mx-auto"
+                />
                 <p className="py-6">Photoshop</p>
               </div>
             </div>
